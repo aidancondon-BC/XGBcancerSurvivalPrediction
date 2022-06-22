@@ -6,6 +6,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OrdinalEncoder, StandardScaler
 from sklearn.metrics import accuracy_score
 
+# file from: https://www.kaggle.com/datasets/raghadalharbi/breast-cancer-gene-expression-profiles-metabric
 df = pd.read_csv('METABRIC_RNA_mutation.csv', engine='python')
 
 features = list(df.columns)
